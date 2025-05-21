@@ -73,6 +73,15 @@ Type exit or quit to leave the chat.
 
 ---
 
+##🧪 Planned Enhancements
+ Web-based GUI: Build a clean, responsive web interface for launching scans, reviewing results, and interacting with the AI.
+
+ HTML/PDF Report Export: Automatically generate visually formatted reports in HTML and downloadable PDF formats.
+
+ Database Integration: Store scan data and AI analyses in a local or remote database for history tracking, filtering, and re-analysis.
+
+---
+
 ## ⚠️ Disclaimer
 This tool is intended for educational and authorized penetration testing only.
 Do not use it against any system you do not have explicit permission to test. Unauthorized use may be illegal and unethical.
