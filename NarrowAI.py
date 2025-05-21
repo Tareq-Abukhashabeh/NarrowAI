@@ -9,7 +9,7 @@ import re
 import webbrowser
 
 # Configure Gemini
-GEMINI_API_KEY = "AIzaSyB9hjCyNSSKhveYrGuR9pXaAa9BjCi0orY"   # Replace it with Your API Key 
+GEMINI_API_KEY = "API_KEY"   # Replace it with Your API Key 
 
 def is_ip_address(target):
     try:
