@@ -128,7 +128,7 @@ def main(target):
     service_info = port_scanner.detect_service_versions(target)
 
     # Compile Report
-    report = f"ReconAI Report for {target}\n\n"
+    report = f"NarrowAI Report for {target}\n\n"
     report += "WHOIS Data:\n" + str(whois_data) + "\n\n"
     report += "DNS Records:\n" + str(dns_records) + "\n\n"
     report += f"Found Subdomains ({len(subdomains)}): {', '.join(subdomains)}\n\n"
@@ -143,7 +143,7 @@ def main(target):
     with open('output/report.txt', 'w') as f:
         f.write(report + "\n--- AI Analysis ---\n" + ai_analysis)
 
-    print("[+] Recon complete. Report saved to output/report.txt")
+    print("[+] NarrowAI complete. Report saved to output/report.txt")
     print("\n--- AI Analysis ---\n")
     print(ai_analysis)
    
