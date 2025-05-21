@@ -1,0 +1,10 @@
+www
+mail
+ftp
+dev
+test
+admin
+smtp
+webmail
+vpn
+portal
