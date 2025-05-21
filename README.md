@@ -73,7 +73,7 @@ Type exit or quit to leave the chat.
 
 ---
 
-##🧪 Planned Enhancements
+## 🧪 Planned Enhancements
  Web-based GUI: Build a clean, responsive web interface for launching scans, reviewing results, and interacting with the AI.
 
  HTML/PDF Report Export: Automatically generate visually formatted reports in HTML and downloadable PDF formats.
