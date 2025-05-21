@@ -58,6 +58,15 @@ python3 narrowai.py <target>
 ```
 ---
 
+## 🎥 Demo
+
+<video width="100%" controls>
+  <source src="demo/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
 ## 📂 Output
 The tool will save the recon report and AI analysis in:
 
