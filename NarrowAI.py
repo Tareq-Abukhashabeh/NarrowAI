@@ -81,7 +81,7 @@ def load_wordlist(path):
 def main(target):
     CYAN = "\033[96m"
     RED = "\033[91m"
-    NC = "\033[0m"  # No Color / Reset
+    NC = "\033[0m" 
 
 
 
@@ -93,7 +93,6 @@ def main(target):
 ██████╔╝██║  ██║██╔╝ ██╗╚██████╔╝
 ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ 
 {NC}""")
-
 
     print("====================================")
     print(f"{CYAN} Powered by Tareq Abu Khashabeh   {NC}")
@@ -135,7 +134,6 @@ def main(target):
     report += f"Open Ports ({len(open_ports)}): {', '.join(map(str, open_ports))}\n\n"
     report += "Service Version Detection:\n" + service_info + "\n\n"
 
-
     print("[*] Analyzing report with AI...")
     ai_analysis = analyze_report(report)
 
@@ -147,13 +145,10 @@ def main(target):
     print("\n--- AI Analysis ---\n")
     print(ai_analysis)
    
-
     # Prepare full context for follow-up chat
     full_context = report + "\n\n--- AI Analysis ---\n" + ai_analysis
 
-    # interactive chat
     interactive_ai_chat(full_context)
-
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
