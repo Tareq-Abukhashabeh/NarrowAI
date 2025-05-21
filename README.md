@@ -56,14 +56,6 @@ Run the tool against a target domain or IP:
 ```bash
 python3 narrowai.py <target>
 ```
----
-
-## 🎥 Demo
-
-<video width="100%" controls>
-  <source src="demo/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ---
 
