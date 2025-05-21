@@ -1,6 +1,6 @@
 # NarrowAI 🔍🤖
 
-**NarrowAI** is an AI-powered reconnaissance tool designed for ethical hackers, penetration testers, and cybersecurity enthusiasts. It automates the process of gathering target information and enriches the results with an AI-powered vulnerability analysis using Google's Gemini model.
+**NarrowAI** is an AI-powered reconnaissance tool designed for ethical hackers, cybersecurity enthusiasts. It automates the process of gathering target information and enriches the results with an AI-powered vulnerability analysis using Google's Gemini model.
 
 ---
 
@@ -44,15 +44,18 @@ Create a project and enable the Gemini API.
 Generate an API key.
 
 Open the file narrowai.py and replace the placeholder GEMINI_API_KEY value with your actual API key:
+```bash
 GEMINI_API_KEY = "YOUR_ACTUAL_API_KEY_HERE"
+```
 Without this API key, NarrowAI will run the recon steps but skip AI-powered analysis.
 
 ---
 
 ## 🚀 Usage
 Run the tool against a target domain or IP:
+```bash
 python3 narrowai.py <target>
-
+```
 ---
 
 ## 📂 Output
