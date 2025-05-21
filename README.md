@@ -26,12 +26,12 @@ Tareq Abu Khashabeh (@DRX0)
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/<your-username>/NarrowAI.git
+git clone https://github.com/Tareq-Abukhashabeh/NarrowAI.git
 cd NarrowAI
 
 Install required Python packages:
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🔑 Gemini API Setup
