@@ -81,7 +81,7 @@ Do not use it against any system you do not have explicit permission to test. Un
 
 ## 📄 License
 This project is licensed under the MIT License.
-License
+
 
 ---
 
